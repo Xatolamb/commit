@@ -14,9 +14,8 @@ rand=$[$RANDOM % ${#arr[@]}]
 echo "## 🤔 LAST UPDATED AT: ${d}" > update.md
 
 size=$((days*24*60))
-git config --local user.email "xatolamb@gmail.com"
-git config --local user.name "xatolamb"
-git commit --amend --allow-empty --no-edit --date "$(date -d "-$i minutes")"
+git config --global user.email "xatolamb@gmail.com"
+git config --global user.name "Xatolamb"
 git commit -am "${arr[$rand]} (at ${d})"
 
 days=200
