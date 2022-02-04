@@ -22,7 +22,7 @@ jobs:
           chmod +x ./task.sh
           ./task.sh
           
-      - name: GitHub Push
+      - name: GitHub Push 
         uses: ad-m/github-push-action@v0.5.0
         with:
           force: true
