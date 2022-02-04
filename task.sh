@@ -30,4 +30,4 @@ git commit --allow-empty -m "Success"
 git commit --amend --allow-empty --no-edit --date "$(date -d "-$i minutes")"
 done 
 git push origin gh-pages
-git checkout master
+
